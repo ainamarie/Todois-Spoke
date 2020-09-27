@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_ihtodoist.UserToken</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>UserToken</name>
+        <script><![CDATA[var UserToken = Class.create();
+UserToken.prototype = {
+	/*
+	 * set up the userID and userGr objects
+	 * if no userID or userGr object is passed, use current user
+	 *
+	 */
+    initialize: function(user) {
+		if (!user) {
+			this.userID = gs.getUserID();
+			this.userGr = new GlideRecord('sys_user');
+			this.userGr.get(this.userID);
+		} else {
+			if (user instanceof GlideRecord) {
+				this.userID = user.getUniqueValue();
+				this.userGr = user;
+			} else {
+				this.userID = user;
+				this.userGr = new GlideRecord('sys_user');
+				this.userGr.get(this.userID);
+			}
+		}
+    },
+	
+	getAPIToken : function() {
+		
+		var tokenGr = new GlideRecord(Constants.TOKEN_TABLE);
+		tokenGr.addQuery('active', true);
+		tokenGr.addQuery('user', this.userID);
+		tokenGr.query();
+		
+		if (!tokenGr.next()) {
+			return '';
+		}
+		
+		return tokenGr.api_token.getDecryptedValue();
+		
+	},
+
+    type: 'UserToken'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-27 14:41:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3a8709091beb50102e4d4156bc4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UserToken</sys_name>
+        <sys_package display_value="Todoist Spoke" source="x_snc_ihtodoist">f8a24dc11beb50102e4d4156bc4bcb4e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Todoist Spoke">f8a24dc11beb50102e4d4156bc4bcb4e</sys_scope>
+        <sys_update_name>sys_script_include_3a8709091beb50102e4d4156bc4bcb2d</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-27 14:41:24</sys_updated_on>
+    </sys_script_include>
+</record_update>

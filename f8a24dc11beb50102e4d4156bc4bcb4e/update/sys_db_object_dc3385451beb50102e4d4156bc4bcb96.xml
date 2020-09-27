@@ -36,7 +36,7 @@
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2020-09-27 14:18:14</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_snc_ihtodoist.user_token_user" name="x_snc_ihtodoist.user_token_user">1483c1451beb50102e4d4156bc4bcb1a</user_role>
+        <user_role display_value="x_snc_ihtodoist.user_token" name="x_snc_ihtodoist.user_token">1483c1451beb50102e4d4156bc4bcb1a</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

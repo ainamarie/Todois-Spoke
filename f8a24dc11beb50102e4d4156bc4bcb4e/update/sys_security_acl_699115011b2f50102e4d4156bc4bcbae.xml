@@ -3,25 +3,27 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
-        <condition/>
+        <condition table="x_snc_ihtodoist_user_token">userDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="user" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
         <description>Default access control on x_snc_ihtodoist_user_token</description>
         <name>x_snc_ihtodoist_user_token</name>
         <operation display_value="delete">delete</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2020-09-27 14:18:16</sys_created_on>
+        <sys_created_on>2020-09-27 15:19:44</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>058389451beb50102e4d4156bc4bcb3c</sys_id>
+        <sys_id>699115011b2f50102e4d4156bc4bcbae</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_ihtodoist_user_token</sys_name>
         <sys_package display_value="Todoist Spoke" source="x_snc_ihtodoist">f8a24dc11beb50102e4d4156bc4bcb4e</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Todoist Spoke">f8a24dc11beb50102e4d4156bc4bcb4e</sys_scope>
-        <sys_update_name>sys_security_acl_058389451beb50102e4d4156bc4bcb3c</sys_update_name>
+        <sys_update_name>sys_security_acl_699115011b2f50102e4d4156bc4bcbae</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2020-09-27 14:18:16</sys_updated_on>
+        <sys_updated_on>2020-09-27 15:19:44</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

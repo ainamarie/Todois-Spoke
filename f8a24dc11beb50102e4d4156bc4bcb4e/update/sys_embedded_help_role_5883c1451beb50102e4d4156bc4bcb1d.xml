@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_snc_ihtodoist.user_token_user" name="x_snc_ihtodoist.user_token_user">1483c1451beb50102e4d4156bc4bcb1a</role>
+        <role display_value="x_snc_ihtodoist.user_token" name="x_snc_ihtodoist.user_token">1483c1451beb50102e4d4156bc4bcb1a</role>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2020-09-27 14:18:13</sys_created_on>

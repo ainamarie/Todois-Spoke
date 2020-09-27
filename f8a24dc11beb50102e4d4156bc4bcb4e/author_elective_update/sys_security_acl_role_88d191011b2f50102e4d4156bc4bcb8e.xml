@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-27 15:23:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>88d191011b2f50102e4d4156bc4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_ihtodoist_user_token.x_snc_ihtodoist.user_token</sys_name>
+        <sys_package display_value="Todoist Spoke" source="x_snc_ihtodoist">f8a24dc11beb50102e4d4156bc4bcb4e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Todoist Spoke">f8a24dc11beb50102e4d4156bc4bcb4e</sys_scope>
+        <sys_security_acl display_value="x_snc_ihtodoist_user_token">7c8389451beb50102e4d4156bc4bcb1d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_88d191011b2f50102e4d4156bc4bcb8e</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-27 15:23:29</sys_updated_on>
+        <sys_user_role display_value="x_snc_ihtodoist.user_token" name="x_snc_ihtodoist.user_token">1483c1451beb50102e4d4156bc4bcb1a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Todoist Spoke">f8a24dc11beb50102e4d4156bc4bcb4e</application>
+        <file_path/>
+        <instance_id>68a41580dbb02e40bb2edba8bf96196b</instance_id>
+        <instance_name>democt1</instance_name>
+        <name>sys_security_acl_role_88d191011b2f50102e4d4156bc4bcb8e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2020-09-27 15:23:29</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>88d191011b2f50102e4d4156bc4bcb8e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ihtodoist_user_token.x_snc_ihtodoist.user_token</sys_name><sys_package display_value="Todoist Spoke" source="x_snc_ihtodoist">f8a24dc11beb50102e4d4156bc4bcb4e</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Todoist Spoke">f8a24dc11beb50102e4d4156bc4bcb4e</sys_scope><sys_security_acl display_value="x_snc_ihtodoist_user_token">7c8389451beb50102e4d4156bc4bcb1d</sys_security_acl><sys_update_name>sys_security_acl_role_88d191011b2f50102e4d4156bc4bcb8e</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2020-09-27 15:23:29</sys_updated_on><sys_user_role display_value="x_snc_ihtodoist.user_token" name="x_snc_ihtodoist.user_token">1483c1451beb50102e4d4156bc4bcb1a</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1532372022</payload_hash>
+        <record_name>x_snc_ihtodoist_user_token.x_snc_ihtodoist.user_token</record_name>
+        <reverted_from/>
+        <source>505111011b2f50102e4d4156bc4bcb4a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-27 15:23:29</sys_created_on>
+        <sys_id>9472dd011b2f50102e4d4156bc4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174d0296a9d0000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-27 15:23:29</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>9c72dd01a32f5010fd2d786f16935327</update_guid>
+        <update_guid_history>9c72dd01a32f5010fd2d786f16935327:-1532372022</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2020-09-27 08:24:01">dc92dd011b2f50102e4d4156bc4bcb2e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2020-09-27 15:24:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>92b47729ba2548188bf66594501bef04</sys_id>
+        <sys_metadata>88d191011b2f50102e4d4156bc4bcb8e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_ihtodoist_user_token.x_snc_ihtodoist.user_token</sys_name>
+        <sys_package display_value="Todoist Spoke" source="x_snc_ihtodoist">f8a24dc11beb50102e4d4156bc4bcb4e</sys_package>
+        <sys_parent display_value="x_snc_ihtodoist_user_token">7c8389451beb50102e4d4156bc4bcb1d</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Todoist Spoke">f8a24dc11beb50102e4d4156bc4bcb4e</sys_scope>
+        <sys_scope_delete display_value="">132713895c904e1982f8db95f312b671</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_88d191011b2f50102e4d4156bc4bcb8e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_88d191011b2f50102e4d4156bc4bcb8e">9472dd011b2f50102e4d4156bc4bcb28</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2020-09-27 15:24:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
